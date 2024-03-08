@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D6CB20E-C6BF-478D-AAEC-9DF4015796FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FAltaActiv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAltaActiv.Designer.cs">
+      <DependentUpon>FAltaActiv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAbmProf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAbmProf.Designer.cs">
+      <DependentUpon>FAbmProf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAbmSoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAbmSoc.Designer.cs">
+      <DependentUpon>FAbmSoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAbmActiv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAbmActiv.Designer.cs">
+      <DependentUpon>FAbmActiv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAltaProf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAltaProf.Designer.cs">
+      <DependentUpon>FAltaProf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAltaSoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAltaSoc.Designer.cs">
+      <DependentUpon>FAltaSoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FGestionarPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGestionarPago.Designer.cs">
+      <DependentUpon>FGestionarPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FGestionInscrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGestionInscrip.Designer.cs">
+      <DependentUpon>FGestionInscrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FInscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FInscripcion.Designer.cs">
+      <DependentUpon>FInscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fListadoProfes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fListadoProfes.Designer.cs">
+      <DependentUpon>fListadoProfes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fListadoSocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fListadoSocs.Designer.cs">
+      <DependentUpon>fListadoSocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FListadoActivs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FListadoActivs.Designer.cs">
+      <DependentUpon>FListadoActivs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPrincipal.Designer.cs">
+      <DependentUpon>FPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FAltaActiv.resx">
+      <DependentUpon>FAltaActiv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAbmProf.resx">
+      <DependentUpon>FAbmProf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAbmSoc.resx">
+      <DependentUpon>FAbmSoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAbmActiv.resx">
+      <DependentUpon>FAbmActiv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAltaProf.resx">
+      <DependentUpon>FAltaProf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAltaSoc.resx">
+      <DependentUpon>FAltaSoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGestionarPago.resx">
+      <DependentUpon>FGestionarPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGestionInscrip.resx">
+      <DependentUpon>FGestionInscrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FInscripcion.resx">
+      <DependentUpon>FInscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fListadoProfes.resx">
+      <DependentUpon>fListadoProfes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fListadoSocs.resx">
+      <DependentUpon>fListadoSocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FListadoActivs.resx">
+      <DependentUpon>FListadoActivs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPrincipal.resx">
+      <DependentUpon>FPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj">
+      <Project>{d754e666-1004-4f5c-8843-de405737a1fc}</Project>
+      <Name>CapaNegocios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
+      <Project>{cfc184f6-3b57-40f4-8cc8-22413e01a002}</Project>
+      <Name>Excepciones</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>CapaDatos</AssemblyName>
+    <RootNamespace>ClassLibrary1</RootNamespace>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+</Project>

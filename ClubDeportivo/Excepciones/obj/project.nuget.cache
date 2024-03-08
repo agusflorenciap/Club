@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bTHx4eco64eChqtr3anaJBP+ffAlXktK0HsP2oAVOcVsOq88PIlWZYgLG2rZuiYIC+zA7whUj/tIdQN4+o8jMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\Excepciones\\Excepciones.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\posea\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\posea\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

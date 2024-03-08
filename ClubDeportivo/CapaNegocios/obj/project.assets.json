@@ -1,0 +1,73 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "CapaDatos/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaDatos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CapaDatos/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/CapaDatos.csproj",
+      "msbuildProject": "../ClassLibrary1/CapaDatos.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "CapaDatos >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\posea\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\CapaNegocios\\CapaNegocios.csproj",
+      "projectName": "CapaNegocios",
+      "projectPath": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\CapaNegocios\\CapaNegocios.csproj",
+      "packagesPath": "C:\\Users\\posea\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\CapaNegocios\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\posea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\Users\\posea\\Desktop\\ClubDeportivo\\ClassLibrary1\\CapaDatos.csproj": {
+              "projectPath": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\ClassLibrary1\\CapaDatos.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\posea\source\repos\Club\ClassLibrary1\bin\Debug\net472\CapaDatos.dll
+C:\Users\posea\source\repos\Club\ClassLibrary1\bin\Debug\net472\CapaDatos.pdb
+C:\Users\posea\source\repos\Club\ClassLibrary1\obj\Debug\net472\CapaDatos.csprojAssemblyReference.cache
+C:\Users\posea\source\repos\Club\ClassLibrary1\obj\Debug\net472\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\posea\source\repos\Club\ClassLibrary1\obj\Debug\net472\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\posea\source\repos\Club\ClassLibrary1\obj\Debug\net472\CapaDatos.AssemblyInfo.cs
+C:\Users\posea\source\repos\Club\ClassLibrary1\obj\Debug\net472\CapaDatos.dll
+C:\Users\posea\source\repos\Club\ClassLibrary1\obj\Debug\net472\CapaDatos.pdb
+C:\Users\posea\Desktop\ClubDeportivo\ClassLibrary1\bin\Debug\net472\CapaDatos.dll
+C:\Users\posea\Desktop\ClubDeportivo\ClassLibrary1\bin\Debug\net472\CapaDatos.pdb
+C:\Users\posea\Desktop\ClubDeportivo\ClassLibrary1\obj\Debug\net472\CapaDatos.csprojAssemblyReference.cache
+C:\Users\posea\Desktop\ClubDeportivo\ClassLibrary1\obj\Debug\net472\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\posea\Desktop\ClubDeportivo\ClassLibrary1\obj\Debug\net472\CapaDatos.AssemblyInfo.cs
+C:\Users\posea\Desktop\ClubDeportivo\ClassLibrary1\obj\Debug\net472\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\posea\Desktop\ClubDeportivo\ClassLibrary1\obj\Debug\net472\CapaDatos.dll
+C:\Users\posea\Desktop\ClubDeportivo\ClassLibrary1\obj\Debug\net472\CapaDatos.pdb

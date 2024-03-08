@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\posea\\Desktop\\ClubDeportivo\\CapaNegocios\\CapaNegocios.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\posea\\Desktop\\ClubDeportivo\\CapaNegocios\\CapaNegocios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\CapaNegocios\\CapaNegocios.csproj",
+        "projectName": "CapaNegocios",
+        "projectPath": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\CapaNegocios\\CapaNegocios.csproj",
+        "packagesPath": "C:\\Users\\posea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\CapaNegocios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\posea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\posea\\Desktop\\ClubDeportivo\\ClassLibrary1\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\ClassLibrary1\\CapaDatos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\posea\\Desktop\\ClubDeportivo\\ClassLibrary1\\CapaDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\ClassLibrary1\\CapaDatos.csproj",
+        "projectName": "CapaDatos",
+        "projectPath": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\ClassLibrary1\\CapaDatos.csproj",
+        "packagesPath": "C:\\Users\\posea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\posea\\Desktop\\ClubDeportivo\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\posea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
