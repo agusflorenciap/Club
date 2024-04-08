@@ -5,5 +5,16 @@ El proyecto consiste en fabricar un software que administre las actividades que 
 <h2>Lenguaje y entorno</h2>
 
 - <b>C# en Visual Studio 2019. Persitencia de datos en Access</b>  
+<br />
+
+<h1>[ENG] Case Study: Sports Club</h1>
+
+<h2>Description</h2>
+The project involves creating software to manage the activities performed by individuals in a gym. There are two types of members: club members and members of specific activities. Club members pay a membership fee and can participate in up to 5 sports activities at no additional cost (if they exceed this limit, they will only pay 50% of the cost of that activity). Members of specific activities only pay for the activities they participate in. The software includes CRUD operations for sports activities, CRUD operations for member registrations to activities, and recording member payments. It uses a three-tier architecture, and a class diagram was created as documentation. Additionally, it has a preliminary web version where members can log in and check their activities.
+<br />
+
+<h2>Language and environment</h2>
+
+- <b>C# in Visual Studio 2019. Data persistence in Access.</b>
 
 
