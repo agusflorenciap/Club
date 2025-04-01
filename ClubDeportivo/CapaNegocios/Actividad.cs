@@ -33,6 +33,7 @@ namespace CapaNegocios
             cantMaxPart = cantMax;
             inscriptos = new List<Socio>();
             costo = cost;
+            //agrego un comentario de prueba
         }
 
         public ArrayList pasarseARelacional()
